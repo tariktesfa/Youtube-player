@@ -5,24 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>YouTube</title>
 </head>
 
 <body>
-    <nav class="crumbs">
-        <ol>
-            <li class="crumb">
-                <a href="#"><img class="logo" src="images/youtube.jfif" alt="YouTube Logo"></li>
-            <li class="crumb"><a href="#">YouTube</a></li>
-            <li class="search">
-                <div id="input_container">
-                    <input type="text" id="input" value="search">
-                    <img src="images/search.jpg" id="input_img">
-                </div>
+    <div>
+        <ul>
+            <li><a href="#"><i class="fa fa-bars fa-2x"></i></a></li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-youtube-play fa-2x" style="color: red;"></i><label>YouTube</label>
+                </a>
             </li>
-            <li class="crumb"></li>
-        </ol>
-    </nav>
+            <li>
+                <a href="#"><input type="text" placeholder="Search.." name="search2" id="Search">
+                    <button type="submit" id="search"><i class="fa fa-search fa-2x"></i></button></a>
+            </li>
+            <li><a href="#"><i class="fa fa-microphone fa-2x"></i></a></li>
+            <li><a href="#"><i class="fa fa-video-camera fa-2x"></i></a></li>
+            <li style="float: right;"><a href="#"><button type="submit" id="btn"><i class="fa fa-user-circle-o fa-2x" style="color: blue;">
+            </i> <label id="signin">SIGN IN</label></button></a></li>
+            <li style="float: right;"><a href="#"><i class="fa fa-bell-o fa-2x"></i></a></li>
+            <li style="float: right;"><a href="#"><i class="fa fa-th fa-2x"></i></a></li>
+        </ul>
+    </div>
+
 
 </body>
 
