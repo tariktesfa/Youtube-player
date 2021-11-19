@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(235, 240, 245);
+}
+
+ul {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+input {
+    width: 500px;
+    min-height: 20px;
+    border: 1px solid grey;
+    padding: 3px;
+    font-size: 15px;
+    background-color: white;
+}
+
+label {
+    font-size: 25px;
+}
+
+#signin {
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    padding: 2px;
+}
+
+button {
+    width: 130px;
+    float: left;
+    padding: 3px;
+    font-size: 15px;
+    border: 1px solid grey;
+    background-color: white;
+    min-height: 20px;
+}
+
+#search {
+    width: 50px;
+    border-color: whitesmoke;
+    border-radius: 0%;
+    border: 1px solid grey;
+    border-left: 0px;
+}
+
+#btn {
+    border: 1px solid blue;
+    background-color: white;
+    padding: 5px;
+}
+#video-portion{
+    height: 400px;
+    width: 57.5%;
+    margin: 20px;
+    margin-top: 100px;
+
+
+}
+iframe{
+    height: 50%;
+    width: 50%;
+
+}
+#yt-player{
+    margin: 20px;
+    display: inline;
+    font-size: 24px;
+    font-weight: 20px;
+    
+    
+    
+    
+
+}
+#thump-up{
+padding-left: 20px;
+padding-right: 20px;
+
+
+}
+#thump-down{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+#share{
+    padding-left: 20px;
+padding-right: 20px;
+
+
+}
+#save{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+#ellipsis{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+#para{
+    margin-left: 35px;
+    width: 58%;
+}
+#nav{
+    margin-left: 35px;
+    width: 58%;
+}
+#date{
+    font-size: 18px;
+    padding: 5px 5px 5px 0px;
+}
+#nav2{
+    margin-left: 320px;
+    
+    
+}
+#reno-list{
+    
+    margin-top: 50px;
+    width: 58%;
+    margin-left: 35px;
+
+    
+}
+#subscribe{
+    float: right;
+}
+#subscribe-bell{
+    float: right;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+#subscribe-button{
+    float: right;
+    margin-top: 15px;
+}
+#reno-master{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#num-subscribe{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+#new-div{
+    border-top: 100px;
+}
+#comment{
+    margin-top: 20px;
+}
+.flex-box{
+    float: right;
+    margin-top: -725px;
+    width:500px
+}
