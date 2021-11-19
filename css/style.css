@@ -73,3 +73,116 @@ button {
     background-color: white;
     padding: 5px;
 }
+#video-portion{
+    height: 400px;
+    width: 57.5%;
+    margin: 20px;
+    margin-top: 100px;
+
+
+}
+iframe{
+    height: 50%;
+    width: 50%;
+
+}
+#yt-player{
+    margin: 20px;
+    display: inline;
+    font-size: 24px;
+    font-weight: 20px;
+    
+    
+    
+    
+
+}
+#thump-up{
+padding-left: 20px;
+padding-right: 20px;
+
+
+}
+#thump-down{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+#share{
+    padding-left: 20px;
+padding-right: 20px;
+
+
+}
+#save{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+#ellipsis{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+#para{
+    margin-left: 35px;
+    width: 58%;
+}
+#nav{
+    margin-left: 35px;
+    width: 58%;
+}
+#date{
+    font-size: 18px;
+    padding: 5px 5px 5px 0px;
+}
+#nav2{
+    margin-left: 320px;
+    
+    
+}
+#reno-list{
+    
+    margin-top: 50px;
+    width: 58%;
+    margin-left: 35px;
+
+    
+}
+#subscribe{
+    float: right;
+}
+#subscribe-bell{
+    float: right;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+#subscribe-button{
+    float: right;
+    margin-top: 15px;
+}
+#reno-master{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#num-subscribe{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+#new-div{
+    border-top: 100px;
+}
+#comment{
+    margin-top: 20px;
+}
+.flex-box{
+    float: right;
+    margin-top: -725px;
+    width:500px
+}
